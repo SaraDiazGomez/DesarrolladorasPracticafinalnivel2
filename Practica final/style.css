@@ -1,0 +1,140 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: #242933 ;
+    border-radius: 4px ;
+    border: 1px #acbae1;
+    box-shadow: 4px #acbae1;
+}
+
+/*  Sección que recoge todos los div con los formularuos (inputs y titulos) */
+
+.Inputs {
+
+    width: 350px;
+    height: auto;
+    background-color: #2f3644 ;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 3px;
+    color: #acbae1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*  Titulo del formulario  */
+.Inputs h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+/*  Aspecto de los inputs  */
+.entradas {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    
+    border: 1px solid white;
+    font-size: 20px;
+}
+/*  Aspecto de los inputs cuando no pasan la validación */
+.entradasno{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid red;
+    font-size: 20px;
+    background-image: url("images/error-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    background-position-x: 260px;
+
+}
+/*  Aspecto de los inputs cuando si pasan la validación */
+.entradassi{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid green;
+    font-size: 20px;
+    background-image: url("images/success-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    background-position-x: 260px;
+
+}
+.Inputs p {
+    margin-bottom: 10px;
+}
+/*  Aspecto del bton ENVIAR */
+.boton{
+    width: 100%;
+    background-color: #6c63ff ;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+color: white;}
+
+.boton:hover {
+    border: 1px solid white;
+    
+    
+}
+
+/*  tODOS LOS MENSAJES EN ROJO CUANDO FALLAN LA VALIDACIÓN */
+#vacionombre{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+
+#vacioemail{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+#vaciopassword1{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+#vaciopassword2{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+#erroremail
+{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+#errortamaño{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+    
+}
+#errorpassword{
+    display: none;
+    color: red;
+    font-size: small;
+    padding: 0;
+
+}

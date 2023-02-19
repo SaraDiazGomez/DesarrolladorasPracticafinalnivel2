@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Practica final</title>
+</head>
+
+<body>
+
+
+    <!-- Inputs: Nombre email y contraseñas -->
+    <section class="Inputs">
+        
+        <h1>Create Account</h1>
+
+        <div>
+            <p>Nombre</p>
+            <input id="nombre" class="entradas" type="text">
+            <p id="vacionombre">Rellene este campo</p>
+        </div>
+        <div class="tooltip">
+            <p>Email</p>
+            <input id="email" class="entradas" type="email">
+            <p id="vacioemail">Rellene este campo</p>
+            <p id="erroremail"> Email inválido </p>
+        </div>
+        <div>
+            <p>Clave</p>
+            <input id="contraseña1" class="entradas" type="password">
+            <p id="vaciopassword1">Rellene este campo</p>
+            <p id="errortamaño">No debe de tener más de 8 caracteres</p>
+        </div>
+        <div>
+            <p>Confirme su clave </p>
+            <input id="contraseña2" class="entradas" type="password">
+            <p id="vaciopassword2">Rellene este campo</p>
+            <p id="errorpassword">Las contraseñas no coinciden</p>
+        </div>
+
+        <div>
+            <button onclick="validarFormulario()" type="button" class="boton">ENVIAR</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
